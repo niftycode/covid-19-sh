@@ -4,11 +4,14 @@
 
 """
 Fetch covid-19 data from the SH server (see URL below).
-Version: 1.1
+Version: 1.2
 Python 3.7+
 Date created: 20.03.2020
+Website: https://xern.de/covid-19-schleswig-holstein/
 
-Fetch SH Geo Data with:
+Fetch SH Geo Data by running the following query
+on overpass-turbo.eu and export the result as GeoJSON:
+
 (area["ISO3166-2"="DE-SH"];)->.sh;
 rel["boundary"="administrative"]["admin_level"="6"](area.sh)->.landkreise;
 node(r.landkreise);
@@ -17,18 +20,28 @@ out;
 
 """
 
-# import re
-# import urllib.request
-# import demjson
+import logging
+import sys
 import json
 import requests
 from bs4 import BeautifulSoup
 
+LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
+
+logging.basicConfig(filename='info.log', level=logging.DEBUG, format=LOG_FORMAT)
+
+logger = logging.getLogger()
+logger.info("logger messages")
+
 URL = 'https://www.schleswig-holstein.de/DE/Landesregierung/I/Presse/_documents/Corona-Liste_Kreise.html'
 # URL = 'http://192.168.170.4/sh-example.html'  # testing only
 
-with open('sh_data.json', 'r') as fd:
-    counties = json.load(fd)
+try:
+    with open('sh_data.json', 'r') as fd:
+        counties = json.load(fd)
+except OSError as e:
+    print(e)
+    sys.exit("Quit the script!")
 
 # Fetch and parse website data
 req_url_sh = requests.get(URL).content
@@ -44,7 +57,9 @@ for row in table_head:
     cells = row.findAll('th')
     timestamp = cells[2].get_text()
 
-# Find table cells
+logger.debug("timestamp")
+
+# Find table cells (counties, changes, infections)
 table_body = data.find('tbody')
 rows = table_body.findAll('tr')
 
@@ -63,13 +78,13 @@ for row in rows:
 sick_sum = values[-1]
 
 area_values = dict(zip(areas, values))
-# print(area_values)
+logger.debug(area_values)
 
 container = []
 
 for county in counties['counties']:
     props = county['properties']
-    # print(props)  # -> logging
+    logger.debug(props)
 
     infection = 0
     names = []
@@ -82,7 +97,6 @@ for county in counties['counties']:
         infection += int(area_values[county_name])
 
     pos = props['coordinates']
-    # print(pos)
 
     container.append({
         "name": " & ".join(names),
@@ -98,5 +112,9 @@ sh_data = {
     "entries": container
 }
 
-with open("data.json", "w+") as fd:
-    json.dump(sh_data, fd, indent=2)
+try:
+    with open("data.json", "w+") as fd:
+        json.dump(sh_data, fd, indent=2)
+except OSError as e:
+    print(e)
+    sys.exit("Quit the script!")
