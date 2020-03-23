@@ -8,6 +8,12 @@ Visualize Covid-19 infections in the German State of Schleswig-Holstein, inspire
 * requests
 * beautifulsoup4
 
+Use
+
+    $ pip3 install -r requirements.txt
+
+to install these packages.
+
 ## About
 
 Run the script with:

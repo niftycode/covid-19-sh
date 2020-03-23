@@ -19,16 +19,28 @@ out;
 
 """
 
-
+import logging
+import sys
 import json
 import requests
 from bs4 import BeautifulSoup
 
-URL = 'https://www.schleswig-holstein.de/DE/Landesregierung/I/Presse/_documents/Corona-Liste_Kreise.html'
-# URL = 'http://192.168.170.4/sh-example.html'  # testing only
+LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-with open('sh_data.json', 'r') as fd:
-    counties = json.load(fd)
+logging.basicConfig(filename='info.log', level=logging.DEBUG, format=LOG_FORMAT)
+
+logger = logging.getLogger()
+logger.info("logger messages")
+
+# URL = 'https://www.schleswig-holstein.de/DE/Landesregierung/I/Presse/_documents/Corona-Liste_Kreise.html'
+URL = 'http://192.168.170.4/sh-example.html'  # testing only
+
+try:
+    with open('sh_data.json', 'r') as fd:
+        counties = json.load(fd)
+except OSError as e:
+    print(e)
+    sys.exit("Quit the script!")
 
 # Fetch and parse website data
 req_url_sh = requests.get(URL).content
@@ -44,7 +56,9 @@ for row in table_head:
     cells = row.findAll('th')
     timestamp = cells[2].get_text()
 
-# Find table cells
+logger.debug("timestamp")
+
+# Find table cells (counties, changes, infections)
 table_body = data.find('tbody')
 rows = table_body.findAll('tr')
 
@@ -63,13 +77,13 @@ for row in rows:
 sick_sum = values[-1]
 
 area_values = dict(zip(areas, values))
-# print(area_values)
+logger.debug(area_values)
 
 container = []
 
 for county in counties['counties']:
     props = county['properties']
-    # print(props)  # -> logging
+    logger.debug(props)
 
     infection = 0
     names = []
@@ -82,7 +96,6 @@ for county in counties['counties']:
         infection += int(area_values[county_name])
 
     pos = props['coordinates']
-    # print(pos)
 
     container.append({
         "name": " & ".join(names),
@@ -98,5 +111,9 @@ sh_data = {
     "entries": container
 }
 
-with open("data.json", "w+") as fd:
-    json.dump(sh_data, fd, indent=2)
+try:
+    with open("data.json", "w+") as fd:
+        json.dump(sh_data, fd, indent=2)
+except OSError as e:
+    print(e)
+    sys.exit("Quit the script!")
