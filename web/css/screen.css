@@ -1,0 +1,55 @@
+html, body, #shmap {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#info {
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    font-size: small;
+    left: 2px;
+    bottom: 2px;
+    z-index: 99999;
+}
+
+#sum-container {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+    top: 2px;
+    right: 2px;
+    z-index: 99999;
+}
+
+/*
+.leaflet-label {
+    font-weight: normal;
+}
+
+div.info {
+    width: 40em;
+    white-space: normal;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: #fafafa;
+}
+
+.leaflet-popup-content {
+    margin: 1em;
+}
+
+.leaflet-popup-content h1 {
+    font-size: 14px;
+    margin-bottom: 0.25em;
+}
+
+.leaflet-popup-content p {
+    margin: 0;
+}
+*/

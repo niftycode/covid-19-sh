@@ -1,0 +1,8 @@
+.venv
+.idea
+/build
+/dist
+.DS_Store
+.pytest_cache
+.vscode
+*.pyc

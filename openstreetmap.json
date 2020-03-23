@@ -1,0 +1,1016 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-03-20T15:45:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/24487450",
+        "capital": "4",
+        "is_in:country": "Germany",
+        "name": "Kiel",
+        "name:ar": "كيل",
+        "name:be": "Кіль",
+        "name:bg": "Кил",
+        "name:de": "Kiel",
+        "name:el": "Κίελο",
+        "name:fa": "کیل",
+        "name:is": "Kíl",
+        "name:lt": "Kylis",
+        "name:lv": "Ķīle",
+        "name:mk": "Кил",
+        "name:nds": "Kiel",
+        "name:pl": "Kilonia",
+        "name:ru": "Киль",
+        "name:uk": "Кіль",
+        "name:ur": "کیل",
+        "note": "admin_centre",
+        "openGeoDB:loc_id": "19236",
+        "place": "city",
+        "population": "246306",
+        "wikidata": "Q1707",
+        "wikipedia": "de:Kiel",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27021",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "12.0",
+              "TMC:cid_58:tabcd_1:LocationCode": "1655",
+              "admin_level": "6",
+              "border_type": "county",
+              "boundary": "administrative",
+              "capital": "4",
+              "de:amtlicher_gemeindeschluessel": "01002000",
+              "de:place": "city",
+              "de:regionalschluessel": "010020000000",
+              "name": "Kiel",
+              "name:ar": "كيل",
+              "name:de": "Kiel",
+              "name:fa": "کیل",
+              "name:he": "קיל",
+              "name:hu": "Kiel",
+              "name:is": "Kíl",
+              "name:ja": "キール",
+              "name:ko": "킬",
+              "name:la": "Kielia",
+              "name:lt": "Kylis",
+              "name:lv": "Ķīle",
+              "name:nds": "Kiel",
+              "name:pl": "Kilonia",
+              "name:prefix": "Kreisfreie Stadt",
+              "name:ru": "Киль",
+              "name:sr": "Кил",
+              "name:uk": "Кіль",
+              "name:ur": "کیل",
+              "name:zh": "基尔",
+              "official_name": "Kreisfreie Stadt Kiel",
+              "place": "city",
+              "ref:LOCODE": "DEKEL",
+              "type": "boundary",
+              "wikidata": "Q1707",
+              "wikipedia": "de:Kiel"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.135555,
+          54.3227085
+        ]
+      },
+      "id": "node/24487450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25327151",
+        "ele": "13",
+        "heritage": "1",
+        "historic": "unesco world heritage",
+        "is_in": "Hansestadt Lübeck,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "is_in:country_code": "DE",
+        "is_in:iso_3166_2": "DE-SH",
+        "name": "Lübeck",
+        "name:ar": "لوبك",
+        "name:cs": "Lubek",
+        "name:de": "Lübeck",
+        "name:en": "Lübeck",
+        "name:eo": "Lubeko",
+        "name:es": "Lubeca",
+        "name:fa": "لوبک",
+        "name:fi": "Lyypekki",
+        "name:fr": "Lübeck",
+        "name:hsb": "Lubica",
+        "name:hu": "Lübeck",
+        "name:it": "Lubecca",
+        "name:ja": "リューベック",
+        "name:la": "Lubeca",
+        "name:lt": "Liubekas",
+        "name:lv": "Lībeka",
+        "name:nds": "Lübeck",
+        "name:pl": "Lubeka",
+        "name:ru": "Любек",
+        "name:sq": "Lybeku",
+        "name:sr": "Либек",
+        "name:uk": "Любек",
+        "name:ur": "لوبک",
+        "nickname": "Hansestadt",
+        "nickname:af": "Hansestad",
+        "nickname:an": "Ciudat Hanseatica",
+        "nickname:ar": "مدينة الهانزية",
+        "nickname:ast": "Ciudá Hanseática",
+        "nickname:az": "Hanzey şəhəri",
+        "nickname:bar": "Hansestod",
+        "nickname:be": "Ганзейскі горад",
+        "nickname:be-tarask": "Ганзейскі горад",
+        "nickname:ca": "ciutat hanseàtica",
+        "nickname:cs": "hanzovní město",
+        "nickname:de": "Hansestadt",
+        "nickname:en": "Hanseatic city",
+        "nickname:eo": "Hanso-urbo",
+        "nickname:es": "ciudad hanseática",
+        "nickname:et": "hansalinn",
+        "nickname:eu": "Hansar Hiria",
+        "nickname:fr": "ville hanséatique",
+        "nickname:frr": "Hansestääd",
+        "nickname:fy": "Hânzestêd",
+        "nickname:gl": "Cidade Hanseática",
+        "nickname:hsb": "hansowe město",
+        "nickname:hu": "Hanza-város",
+        "nickname:id": "Kota Hanseatik",
+        "nickname:it": "città anseatica",
+        "nickname:ja": "ハンザ都市",
+        "nickname:jv": "Kota Hanseatik",
+        "nickname:la": "urbs Hanseatica",
+        "nickname:lb": "Hansestad",
+        "nickname:lt": "Hanzos sąjungos miestas",
+        "nickname:lv": "hanzas pilsēta",
+        "nickname:mk": "Ханзин град",
+        "nickname:nds": "Hansestadt",
+        "nickname:nds-nl": "Hanzestad",
+        "nickname:nl": "Hanzestad",
+        "nickname:no": "Hansabyen",
+        "nickname:pt": "Cidade Hanseática",
+        "nickname:ro": "Oraș al Hansei",
+        "nickname:ru": "Ганзе́йский го́род",
+        "nickname:sc": "Tzitade Anseàtica",
+        "nickname:sco": "Hanseatic ceety",
+        "nickname:sk": "hanzové mesto",
+        "nickname:sl": "hanzeatsko mesto",
+        "nickname:th": "นครฮันเซอแห่ง",
+        "nickname:vec": "sità anseatica",
+        "nickname:vi": "thành phố Hanse",
+        "nickname:yue": "漢莎城市",
+        "nickname:zh": "汉萨同盟城市",
+        "official_name": "Hansestadt Lübeck",
+        "official_name:af": "Hansestad Lübeck",
+        "official_name:an": "Ciudat Hanseatica de Lübeck",
+        "official_name:ar": "مدينة لوبك الهانزية",
+        "official_name:ast": "Ciudá Hanseática de Lübeck",
+        "official_name:az": "Hanzey şəhəri Lübek",
+        "official_name:bar": "Hansestod Lübeck",
+        "official_name:be": "Ганзейскі горад Любек",
+        "official_name:be-tarask": "Ганзейскі горад Любэк",
+        "official_name:ca": "Ciutat Lliure i Hanseàtica de Lübeck",
+        "official_name:cv": "Любек ханза хули",
+        "official_name:da": "Hansestaden Lybæk",
+        "official_name:de": "Hansestadt Lübeck",
+        "official_name:en": "Hanseatic City of Lübeck",
+        "official_name:eo": "Hanso-urbo Lubeko",
+        "official_name:es": "Ciudad Hanseática de Lübeck",
+        "official_name:et": "Hansalinn Lübeck",
+        "official_name:eu": "Lübeckeko Hansar Hiria",
+        "official_name:fy": "Hânzestêd Lübeck",
+        "official_name:gl": "Cidade Hanseática de Lübeck",
+        "official_name:hr": "Hanzeatski grad Lübeck",
+        "official_name:hsb": "Hansowe město Lubica",
+        "official_name:id": "Kota Hanseatik Lübeck",
+        "official_name:it": "libera città anseatica di Lubecca",
+        "official_name:ja": "ハンザ都市リューベック",
+        "official_name:jv": "Kota Hanseatik Lübeck",
+        "official_name:la": "Lubeca urbs Hansica",
+        "official_name:lb": "Hansestad Lübeck",
+        "official_name:mk": "Ханзин град Либек",
+        "official_name:nds-nl": "Hanzestad Lubeek",
+        "official_name:nl": "Hanzestad Lübeck",
+        "official_name:no": "Hansestadt Lübeck",
+        "official_name:pt": "Cidade Hanseática de Lübeck",
+        "official_name:sco": "Hanseatic Ceety o Lübeck",
+        "official_name:th": "นครฮันเซอแห่งลือเบค",
+        "official_name:tr": "Hanseatik Dönemin Lübeck Şehri",
+        "official_name:vi": "Thành phố Hanse Lübeck",
+        "official_name:yue": "漢莎城市呂碧克",
+        "official_name:zh": "汉萨同盟城市吕贝克",
+        "openGeoDB:community_identification_number": "01003000",
+        "openGeoDB:license_plate_code": "HL",
+        "openGeoDB:loc_id": "20437",
+        "openGeoDB:name": "Lübeck",
+        "openGeoDB:postal_codes": "23539,23552,23554,23556,23558,23560,23562,23564,23566,23568,23569,23570",
+        "openGeoDB:telephone_area_code": "0451",
+        "openGeoDB:type": "Hansestadt",
+        "place": "city",
+        "population": "212958",
+        "ref:LOCODE": "DELBC",
+        "wikidata": "Q2843",
+        "wikipedia": "de:Lübeck",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27027",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "5290",
+              "admin_level": "6",
+              "alt_name:et": "Lüübek",
+              "alt_name:pl": "Lubika",
+              "alt_name:pt": "Lubeque",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01003000",
+              "de:place": "city",
+              "de:regionalschluessel": "010030000000",
+              "is_in:iso_3166_2": "DE-SH",
+              "name": "Lübeck",
+              "name:af": "Lübeck",
+              "name:an": "Lübeck",
+              "name:ar": "لوبك",
+              "name:arc": "ܠܘܒܩ",
+              "name:ast": "Lübeck",
+              "name:az": "Lübek",
+              "name:azb": "لوبک",
+              "name:bar": "Lübeck",
+              "name:be": "Любек",
+              "name:be-tarask": "Любэк",
+              "name:bg": "Любек",
+              "name:br": "Lübeck",
+              "name:bs": "Lübeck",
+              "name:ca": "Lübeck",
+              "name:ceb": "Lübeck",
+              "name:co": "Lubecca",
+              "name:cs": "Lubek",
+              "name:csb": "Lubeka",
+              "name:cv": "Любек",
+              "name:cy": "Lübeck",
+              "name:da": "Lybæk",
+              "name:de": "Lübeck",
+              "name:dsb": "Lübeck",
+              "name:el": "Λίμπεκ",
+              "name:en": "Lübeck",
+              "name:eo": "Lubeko",
+              "name:es": "Lübeck",
+              "name:et": "Lübeck",
+              "name:eu": "Lübeck",
+              "name:fa": "لوبک",
+              "name:fi": "Lyypekki",
+              "name:fr": "Lübeck",
+              "name:frr": "Lübeck",
+              "name:fy": "Lübeck",
+              "name:ga": "Lübeck",
+              "name:gd": "Lübeck",
+              "name:gl": "Lübeck",
+              "name:he": "ליבק",
+              "name:hr": "Lübeck",
+              "name:hsb": "Lubica",
+              "name:hu": "Lübeck",
+              "name:hy": "Լյուբեկ",
+              "name:id": "Lübeck",
+              "name:ie": "Lübeck",
+              "name:io": "Lübeck",
+              "name:is": "Lýbika",
+              "name:it": "Lubecca",
+              "name:ja": "リューベック",
+              "name:jv": "Lübeck",
+              "name:ka": "ლიუბეკი",
+              "name:ko": "뤼베크",
+              "name:la": "Lubeca",
+              "name:lb": "Lübeck",
+              "name:lmo": "Lübeca",
+              "name:lt": "Liubekas",
+              "name:lv": "Lībeka",
+              "name:mk": "Либек",
+              "name:mr": "ल्युबेक",
+              "name:nan": "Lübeck",
+              "name:nds": "Lübeek",
+              "name:nds-nl": "Lubeek",
+              "name:nl": "Lübeck",
+              "name:nn": "Lübeck",
+              "name:no": "Lübeck",
+              "name:oc": "Lübeck",
+              "name:os": "Любек",
+              "name:pl": "Lubeka",
+              "name:pms": "Lubëcca",
+              "name:pnb": "لوبک",
+              "name:prefix": "Kreisfreie Stadt",
+              "name:pt": "Lubeca",
+              "name:ro": "Lübeck",
+              "name:ru": "Лю́бек",
+              "name:sco": "Lübeck",
+              "name:sh": "Libek",
+              "name:sk": "Lübeck",
+              "name:sl": "Lübeck",
+              "name:sla": "Liubice",
+              "name:sq": "Lybek",
+              "name:sr": "Либек",
+              "name:stq": "Lübeck",
+              "name:sv": "Lybeck",
+              "name:sw": "Lübeck",
+              "name:szl": "Lübeck",
+              "name:th": "ลือเบค",
+              "name:tr": "Lübeck",
+              "name:tt": "Лүбек",
+              "name:tw": "Lübeck",
+              "name:uk": "Лю́бек",
+              "name:ur": "لوبک",
+              "name:uz": "Lyubek",
+              "name:vec": "Lubeca",
+              "name:vi": "Lübeck",
+              "name:vo": "Lübeck",
+              "name:war": "Lübeck",
+              "name:yue": "呂碧克",
+              "name:zh": "吕贝克",
+              "official_name": "Kreisfreie Stadt Lübeck",
+              "place": "city",
+              "population": "212958",
+              "type": "boundary",
+              "wikidata": "Q2843",
+              "wikipedia": "de:Lübeck"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.684738,
+          53.866444
+        ]
+      },
+      "id": "node/25327151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31052027",
+        "ele": "36",
+        "is_in": "Herzogtum Lauenburg,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Ratzeburg",
+        "name:nds": "Ratzborg",
+        "openGeoDB:community_identification_number": "01053100",
+        "openGeoDB:license_plate_code": "RZ",
+        "openGeoDB:loc_id": "22835",
+        "openGeoDB:telephone_area_code": "04541",
+        "place": "town",
+        "population": "13785",
+        "postal_code": "23909",
+        "wikidata": "Q490025",
+        "wikipedia": "de:Ratzeburg",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "62703",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "9.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "465",
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01053",
+              "de:place": "county",
+              "de:regionalschluessel": "01053",
+              "is_in": "Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+              "license_plate_code": "RZ",
+              "name": "Herzogtum Lauenburg",
+              "name:nds": "Kreis Hertogdom Loonborg",
+              "name:prefix": "Kreis",
+              "name:ru": "Герцогство Лауэнбург",
+              "note": "Probleme in nominatum - deshalb: Punkt gelöscht, Atribute übernommen in Multipolygon",
+              "official_name": "Kreis Herzogtum Lauenburg",
+              "openGeoDB:community_identification_number": "01053",
+              "openGeoDB:license_plate_code": "RZ",
+              "openGeoDB:loc_id": "463",
+              "openGeoDB:type": "Kreis",
+              "population": "186255",
+              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
+              "type": "boundary",
+              "wikidata": "Q3000",
+              "wikipedia": "de:Kreis Herzogtum Lauenburg"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.774288,
+          53.7011061
+        ]
+      },
+      "id": "node/31052027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31167256",
+        "de:amtlicher_gemeindeschluessel": "01056039",
+        "ele": "9",
+        "is_in": "Kreis Pinneberg,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Pinneberg",
+        "name:nds": "Pinnbarg",
+        "place": "town",
+        "population": "42055",
+        "postal_code": "25421",
+        "wikidata": "Q7074",
+        "wikipedia": "de:Pinneberg",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "62408",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "9.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "604",
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01056",
+              "de:place": "county",
+              "de:regionalschluessel": "01056",
+              "license_plate_code": "PI",
+              "name": "Pinneberg",
+              "name:nds": "Kreis Pinnbarg",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Pinneberg",
+              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
+              "type": "boundary",
+              "wikidata": "Q3006",
+              "wikipedia": "de:Kreis Pinneberg"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7968682,
+          53.6615506
+        ]
+      },
+      "id": "node/31167256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/33100807",
+        "ele": "22",
+        "is_in": "Steinburg,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Itzehoe",
+        "name:nds": "Itzho",
+        "place": "town",
+        "population": "33221",
+        "postal_code": "25524",
+        "wikidata": "Q16073",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27016",
+            "reltags": {
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01061",
+              "de:place": "county",
+              "de:regionalschluessel": "01061",
+              "license_plate_code": "IZ",
+              "name": "Steinburg",
+              "name:de": "Steinburg",
+              "name:nds": "Kreis Steenborg",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Steinburg",
+              "type": "boundary",
+              "wikidata": "Q3011",
+              "wikipedia": "de:Kreis Steinburg"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5155854,
+          53.9250316
+        ]
+      },
+      "id": "node/33100807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/34482099",
+        "de:amtlicher_gemeindeschluessel": "01055012",
+        "name": "Eutin",
+        "name:nds": "Eutin",
+        "place": "town",
+        "ref:LOCODE": "DEEUT",
+        "wikidata": "Q490445",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27025",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "593",
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01055",
+              "de:regionalschluessel": "01055",
+              "license_plate_code": "OH",
+              "name": "Ostholstein",
+              "name:de": "Ostholstein",
+              "name:nds": "Oostholsteen",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Ostholstein",
+              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
+              "type": "boundary",
+              "wikidata": "Q2975",
+              "wikipedia": "de:Kreis Ostholstein"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6159077,
+          54.1364642
+        ]
+      },
+      "id": "node/34482099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/43348147",
+        "de:amtlicher_gemeindeschluessel": "01059075",
+        "is_in": "Schleswig-Flensburg,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Schleswig",
+        "name:da": "Slesvig",
+        "name:is": "Slésvík",
+        "name:nds": "Sleswig",
+        "place": "town",
+        "population": "24846",
+        "postal_code": "24837",
+        "wikidata": "Q501661",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27014",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "646",
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01059",
+              "de:place": "county",
+              "de:regionalschluessel": "01059",
+              "license_plate_code": "SL",
+              "name": "Schleswig-Flensburg",
+              "name:de": "Schleswig-Flensburg",
+              "name:is": "Slésvík-Flensborg",
+              "name:nds": "Kreis Sleswig-Flensborg",
+              "name:prefix": "Kreis",
+              "note": "Kreisgebiet ist auf Gemeindegebiet begrenzt, welches wiederum historisch auf Landgebiet begrenzt ist; Küstengewässer sind bis auf einzelne, vom Land zugewiesene Gebiete nicht enthalten",
+              "official_name": "Kreis Schleswig-Flensburg",
+              "type": "boundary",
+              "wikidata": "Q2941",
+              "wikipedia": "de:Kreis Schleswig-Flensburg"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5653284,
+          54.51851
+        ]
+      },
+      "id": "node/43348147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/43366937",
+        "de:amtlicher_gemeindeschluessel": "01058135",
+        "name": "Rendsburg",
+        "name:nds": "Rendsborg",
+        "place": "town",
+        "population": "28387",
+        "postal_code": "24768",
+        "wikidata": "Q490457",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27017",
+            "reltags": {
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01058",
+              "de:regionalschluessel": "01058",
+              "license_plate_code": "RD, ECK",
+              "name": "Rendsburg-Eckernförde",
+              "name:de": "Rendsburg-Eckernförde",
+              "name:nds": "Kreis Rendsborg-Eckernföör",
+              "name:prefix": "Kreis",
+              "note": "Kreisgebiet ist auf Gemeindegebiet begrenzt, welches wiederum historisch auf Landgebiet begrenzt ist; Küstengewässer sind bis auf einzelne, vom Land zugewiesene Gebiete nicht enthalten",
+              "official_name": "Kreis Rendsburg-Eckernförde",
+              "type": "boundary",
+              "wikidata": "Q2967",
+              "wikipedia": "de:Kreis Rendsburg-Eckernförde"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6645115,
+          54.3046701
+        ]
+      },
+      "id": "node/43366937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/96450067",
+        "alt_name:nds": "Olschlo",
+        "de:amtlicher_gemeindeschluessel": "01062004",
+        "ele": "9",
+        "is_in": "Stormarn,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Bad Oldesloe",
+        "name:nds": "Bad Oschloe",
+        "place": "town",
+        "population": "24477",
+        "postal_code": "23843",
+        "ref:LOCODE": "DEBOL",
+        "wikidata": "Q155226",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "62546",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "9.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "672",
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01062",
+              "de:regionalschluessel": "01062",
+              "license_plate_code": "OD",
+              "name": "Stormarn",
+              "name:nds": "Kreis Stormarn",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Stormarn",
+              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
+              "type": "boundary",
+              "wikidata": "Q3003",
+              "wikipedia": "de:Kreis Stormarn"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3733692,
+          53.8096562
+        ]
+      },
+      "id": "node/96450067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240037870",
+        "name": "Heide",
+        "name:nds": "Heid",
+        "note": "Alle Daten zum Gebiet sind in der zugehörigen Grenzrelation",
+        "place": "town",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27028",
+            "reltags": {
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01051",
+              "de:regionalschluessel": "01051",
+              "license_plate_code": "HEI",
+              "name": "Dithmarschen",
+              "name:de": "Dithmarschen",
+              "name:nds": "Kreis Dithmarschen",
+              "name:prefix": "Kreis",
+              "note": "INFAS-Relation: #62576 ; Kreisgebiet ist auf Gemeindegebiet begrenzt, welches wiederum historisch auf Landgebiet begrenzt ist; Küstengewässer sind bis auf einzelne, vom Land zugewiesene Gebiete nicht enthalten",
+              "official_name": "Kreis Dithmarschen",
+              "type": "boundary",
+              "wikidata": "Q2947",
+              "wikipedia": "de:Kreis Dithmarschen"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0929015,
+          54.1948456
+        ]
+      },
+      "id": "node/240037870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240073534",
+        "alt_name:nds": "Staad",
+        "name": "Stade",
+        "name:ar": "شتاده",
+        "name:fa": "اشتدته",
+        "name:ja": "シュターデ",
+        "name:nds": "Stood",
+        "name:ru": "Штаде",
+        "name:sr": "Штаде",
+        "name:zh": "施塔德",
+        "place": "town",
+        "population": "45682",
+        "wikidata": "Q6949",
+        "wikipedia": "de:Stade",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "62482",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "12.0",
+              "TMC:cid_58:tabcd_1:LocationCode": "666",
+              "admin_level": "6",
+              "border_type": "county",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "03359",
+              "de:place": "county",
+              "de:regionalschluessel": "03359",
+              "license_plate_code": "STD",
+              "name": "Stade",
+              "name:de": "Stade",
+              "name:fr": "Stade (arrondissement)",
+              "name:prefix": "Landkreis",
+              "name:ru": "Штаде",
+              "official_name": "Landkreis Stade",
+              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
+              "type": "boundary",
+              "wikidata": "Q5906",
+              "wikipedia": "de:Landkreis Stade"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.475438,
+          53.599794
+        ]
+      },
+      "id": "node/240073534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240074033",
+        "alt_name:en": "North Frisia",
+        "name": "Nordfriesland",
+        "name:en": "Northern Friesland",
+        "note": "Alle Daten zum Gebiet sind in der zugehörigen Grenzrelation",
+        "place": "county",
+        "@relations": [
+          {
+            "role": "label",
+            "rel": "27019",
+            "reltags": {
+              "admin_level": "6",
+              "alt_name:en": "North Frisia",
+              "border_type": "county",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01054",
+              "de:regionalschluessel": "01054",
+              "license_plate_code": "NF",
+              "name": "Nordfriesland",
+              "name:de": "Nordfriesland",
+              "name:en": "Northern Friesland",
+              "name:nds": "Kreis Noordfreesland",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Nordfriesland",
+              "population": "161923",
+              "type": "boundary",
+              "wikidata": "Q2937",
+              "wikipedia": "de:Kreis Nordfriesland"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8840629,
+          54.6072964
+        ]
+      },
+      "id": "node/240074033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240085119",
+        "name": "Husum",
+        "name:frr": "Hüsem",
+        "name:nds": "Husum",
+        "note": "Alle Daten zum Gebiet sind in der zugehörigen Grenzrelation",
+        "place": "town",
+        "population": "23274",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27019",
+            "reltags": {
+              "admin_level": "6",
+              "alt_name:en": "North Frisia",
+              "border_type": "county",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01054",
+              "de:regionalschluessel": "01054",
+              "license_plate_code": "NF",
+              "name": "Nordfriesland",
+              "name:de": "Nordfriesland",
+              "name:en": "Northern Friesland",
+              "name:nds": "Kreis Noordfreesland",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Nordfriesland",
+              "population": "161923",
+              "type": "boundary",
+              "wikidata": "Q2937",
+              "wikipedia": "de:Kreis Nordfriesland"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0538156,
+          54.4853638
+        ]
+      },
+      "id": "node/240085119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/240100817",
+        "de:amtlicher_gemeindeschluessel": "01057057",
+        "is_in": "Plön,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Plön",
+        "name:nds": "Plöön",
+        "place": "town",
+        "population": "8914",
+        "postal_code": "24306",
+        "wikidata": "Q497060",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "27026",
+            "reltags": {
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01057",
+              "de:place": "county",
+              "de:regionalschluessel": "01057",
+              "license_plate_code": "PLÖ",
+              "name": "Plön",
+              "name:de": "Plön",
+              "name:nds": "Kreis Plöön",
+              "name:prefix": "Kreis",
+              "note": "Kreisgebiet ist auf Gemeindegebiet begrenzt, welches wiederum historisch auf Landgebiet begrenzt ist; Küstengewässer sind bis auf einzelne, vom Land zugewiesene Gebiete nicht enthalten",
+              "official_name": "Kreis Plön",
+              "type": "boundary",
+              "wikidata": "Q2970",
+              "wikipedia": "de:Kreis Plön"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.41771,
+          54.158082
+        ]
+      },
+      "id": "node/240100817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/311118422",
+        "name": "Kreis Dithmarschen",
+        "place": "county",
+        "@relations": [
+          {
+            "role": "label",
+            "rel": "27028",
+            "reltags": {
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01051",
+              "de:regionalschluessel": "01051",
+              "license_plate_code": "HEI",
+              "name": "Dithmarschen",
+              "name:de": "Dithmarschen",
+              "name:nds": "Kreis Dithmarschen",
+              "name:prefix": "Kreis",
+              "note": "INFAS-Relation: #62576 ; Kreisgebiet ist auf Gemeindegebiet begrenzt, welches wiederum historisch auf Landgebiet begrenzt ist; Küstengewässer sind bis auf einzelne, vom Land zugewiesene Gebiete nicht enthalten",
+              "official_name": "Kreis Dithmarschen",
+              "type": "boundary",
+              "wikidata": "Q2947",
+              "wikipedia": "de:Kreis Dithmarschen"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0799113,
+          54.1331231
+        ]
+      },
+      "id": "node/311118422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004755551",
+        "alt_name:nds": "Sebarg",
+        "de:amtlicher_gemeindeschluessel": "01060005",
+        "is_in": "Segeberg,Schleswig-Holstein,Bundesrepublik Deutschland,Europe",
+        "name": "Bad Segeberg",
+        "name:nds": "Bad Seebarg",
+        "place": "town",
+        "population": "15975",
+        "postal_code": "23795",
+        "ref:LOCODE": "DEBSE",
+        "website": "http://www.bad-segeberg.de/",
+        "wikidata": "Q496050",
+        "wikipedia": "de:Bad Segeberg",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "62733",
+            "reltags": {
+              "TMC:cid_58:tabcd_1:Class": "Area",
+              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
+              "TMC:cid_58:tabcd_1:LocationCode": "656",
+              "admin_level": "6",
+              "boundary": "administrative",
+              "de:amtlicher_gemeindeschluessel": "01060",
+              "de:place": "county",
+              "de:regionalschluessel": "01060",
+              "license_plate_code": "SE",
+              "name": "Segeberg",
+              "name:nds": "Kreis Sebarg",
+              "name:prefix": "Kreis",
+              "official_name": "Kreis Segeberg",
+              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
+              "type": "boundary",
+              "wikidata": "Q2980",
+              "wikipedia": "de:Kreis Segeberg"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30415,
+          53.9368198
+        ]
+      },
+      "id": "node/7004755551"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+    "counties": [
+        {
+            "properties": {
+                "name": "Kiel",
+                "coordinates": [
+                    10.135555,
+                    54.3227085
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Lübeck",
+                "coordinates": [
+                    10.684738,
+                    53.866444
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Herzogtum Lauenburg",
+                "coordinates": [
+                    10.774288,
+                    53.7011061
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Pinneberg",
+                "coordinates": [
+                    9.7968682,
+                    53.6615506
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Steinburg",
+                "coordinates": [
+                    9.5155854,
+                    53.9250316
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Ostholstein",
+                "coordinates": [
+                    10.6159077,
+                    54.1364642
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Schleswig-Flensburg",
+                "coordinates": [
+                    9.5653284,
+                    54.51851
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Rendsburg-Eckernförde",
+                "coordinates": [
+                    9.6645115,
+                    54.3046701
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Stormarn",
+                "coordinates": [
+                    10.3733692,
+                    53.8096562
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Dithmarschen",
+                "coordinates": [
+                    9.0929015,
+                    54.1948456
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Segeberg",
+                "coordinates": [
+                    10.30415,
+                    53.9368198
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Flensburg",
+                "coordinates": [
+                    9.5653284,
+                    54.51851
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Neumünster",
+                "coordinates": [
+                    9.9815377,
+                    54.0757442
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Plön",
+                "coordinates": [
+                    10.41771,
+                    54.158082
+                ]
+            }
+        },
+        {
+            "properties": {
+                "name": "Nordfriesland",
+                "coordinates": [
+                    8.8840629,
+                    54.6072964
+                ]
+            }
+        }
+    ]
+}
