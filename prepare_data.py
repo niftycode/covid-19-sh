@@ -8,7 +8,9 @@ Version: 1.1
 Python 3.7+
 Date created: 20.03.2020
 
-Fetch SH Geo Data with:
+Fetch SH Geo Data by running the following query
+on overpass-turbo.eu and export the result as GeoJSON:
+
 (area["ISO3166-2"="DE-SH"];)->.sh;
 rel["boundary"="administrative"]["admin_level"="6"](area.sh)->.landkreise;
 node(r.landkreise);
@@ -17,9 +19,7 @@ out;
 
 """
 
-# import re
-# import urllib.request
-# import demjson
+
 import json
 import requests
 from bs4 import BeautifulSoup
