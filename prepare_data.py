@@ -4,9 +4,10 @@
 
 """
 Fetch covid-19 data from the SH server (see URL below).
-Version: 1.1
+Version: 1.2
 Python 3.7+
 Date created: 20.03.2020
+Website: https://xern.de/covid-19-schleswig-holstein/
 
 Fetch SH Geo Data by running the following query
 on overpass-turbo.eu and export the result as GeoJSON:
