@@ -2,6 +2,8 @@
 
 Visualize Covid-19 infections in the German State of Schleswig-Holstein, inspired by the [Hackerspace Pfaffenhofen](https://github.com/hopfenspace/corona.bayern).
 
+Website: [https://xern.de/covid-19-schleswig-holstein/](https://xern.de/covid-19-schleswig-holstein/)
+
 ## Requirements
 
 * Python 3
