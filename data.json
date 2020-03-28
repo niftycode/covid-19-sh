@@ -1,0 +1,97 @@
+{
+  "source": "https://www.schleswig-holstein.de/DE/Landesregierung/I/Presse/_documents/Corona-Liste_Kreise.html",
+  "timestamp": "Positivmeldungen\nStand 28.03",
+  "infection_sum": "917",
+  "entries": [
+    {
+      "name": "Kiel",
+      "sick": 74,
+      "lng": 10.135555,
+      "lat": 54.3227085
+    },
+    {
+      "name": "L\u00fcbeck",
+      "sick": 69,
+      "lng": 10.684738,
+      "lat": 53.866444
+    },
+    {
+      "name": "Herzogtum Lauenburg",
+      "sick": 80,
+      "lng": 10.774288,
+      "lat": 53.7011061
+    },
+    {
+      "name": "Pinneberg",
+      "sick": 173,
+      "lng": 9.7968682,
+      "lat": 53.6615506
+    },
+    {
+      "name": "Steinburg",
+      "sick": 36,
+      "lng": 9.5155854,
+      "lat": 53.9250316
+    },
+    {
+      "name": "Ostholstein",
+      "sick": 23,
+      "lng": 10.6159077,
+      "lat": 54.1364642
+    },
+    {
+      "name": "Schleswig-Flensburg",
+      "sick": 55,
+      "lng": 9.5653284,
+      "lat": 54.51851
+    },
+    {
+      "name": "Rendsburg-Eckernf\u00f6rde",
+      "sick": 100,
+      "lng": 9.6645115,
+      "lat": 54.3046701
+    },
+    {
+      "name": "Stormarn",
+      "sick": 105,
+      "lng": 10.3733692,
+      "lat": 53.8096562
+    },
+    {
+      "name": "Dithmarschen",
+      "sick": 23,
+      "lng": 9.0929015,
+      "lat": 54.1948456
+    },
+    {
+      "name": "Segeberg",
+      "sick": 63,
+      "lng": 10.30415,
+      "lat": 53.9368198
+    },
+    {
+      "name": "Flensburg",
+      "sick": 19,
+      "lng": 9.5653284,
+      "lat": 54.51851
+    },
+    {
+      "name": "Neum\u00fcnster",
+      "sick": 15,
+      "lng": 9.9815377,
+      "lat": 54.0757442
+    },
+    {
+      "name": "Pl\u00f6n",
+      "sick": 50,
+      "lng": 10.41771,
+      "lat": 54.158082
+    },
+    {
+      "name": "Nordfriesland",
+      "sick": 32,
+      "lng": 8.8840629,
+      "lat": 54.6072964
+    }
+  ]
+}

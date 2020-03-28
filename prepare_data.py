@@ -55,13 +55,15 @@ timestamp = None
 
 for row in table_head:
     cells = row.findAll('th')
-    timestamp = cells[2].get_text()
+    logger.debug(cells)
+    timestamp = cells[1].get_text()
 
-logger.debug("timestamp")
+logger.debug(timestamp)
 
 # Find table cells (counties, changes, infections)
 table_body = data.find('tbody')
 rows = table_body.findAll('tr')
+logger.debug(rows)
 
 cells = None
 
@@ -72,8 +74,8 @@ values = []
 for row in rows:
     cells = row.findAll('td')
     areas.append(cells[0].get_text())
-    changes.append(cells[1].get_text())
-    values.append(cells[2].get_text())
+    # changes.append(cells[1].get_text())
+    values.append(cells[1].get_text())
 
 sick_sum = values[-1]
 
