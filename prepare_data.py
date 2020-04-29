@@ -34,7 +34,6 @@ logger = logging.getLogger()
 logger.info("logger messages")
 
 URL = 'https://www.schleswig-holstein.de/DE/Landesregierung/I/Presse/_documents/Corona-Liste_Kreise.html'
-# URL = 'http://192.168.170.4/sh-example.html'  # testing only
 
 try:
     with open('sh_data.json', 'r') as fd:
