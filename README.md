@@ -1,6 +1,6 @@
 # covid-19-sh
 
-**Update**: The website showing the infections in [Schleswig-Holstein](https://en.wikipedia.org/wiki/Schleswig-Holstein) is no longer available. So, this script will stop with a Traceback. But anyone interested in [web scraping](https://en.wikipedia.org/wiki/Web_scraping) might this code useful.
+**Update**: The website showing the infections in [Schleswig-Holstein](https://en.wikipedia.org/wiki/Schleswig-Holstein) is no longer available. So, this script will stop with a Traceback. But anyone interested in [web scraping](https://en.wikipedia.org/wiki/Web_scraping) may find this code useful.
 
 Visualize Covid-19 infections in the German State of Schleswig-Holstein, inspired by the [Hackerspace Pfaffenhofen](https://github.com/hopfenspace/corona.bayern).
 
